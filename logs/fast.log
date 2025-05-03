@@ -1,0 +1,41 @@
+05/02/2025-09:46:38.681000  [**] [1:2221028:1] SURICATA HTTP Host header invalid [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:39682 -> 192.168.65.7:2375
+05/02/2025-09:46:38.681174  [**] [1:2221028:1] SURICATA HTTP Host header invalid [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:64607 -> 192.168.65.7:2375
+05/02/2025-09:46:38.681927  [**] [1:2260005:1] SURICATA Applayer Unexpected protocol [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:64607 -> 192.168.65.7:2375
+05/02/2025-09:46:38.681911  [**] [1:2260005:1] SURICATA Applayer Unexpected protocol [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:39682 -> 192.168.65.7:2375
+05/02/2025-09:46:38.682398  [**] [1:2260005:1] SURICATA Applayer Unexpected protocol [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:39682 -> 192.168.65.7:2375
+05/02/2025-09:46:38.682495  [**] [1:2260005:1] SURICATA Applayer Unexpected protocol [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.7:2375 -> 192.168.65.1:64607
+05/02/2025-09:46:38.682904  [**] [1:2260005:1] SURICATA Applayer Unexpected protocol [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.7:2375 -> 192.168.65.1:39682
+05/02/2025-09:46:38.683533  [**] [1:2260005:1] SURICATA Applayer Unexpected protocol [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:39682 -> 192.168.65.7:2375
+05/02/2025-09:46:38.683232  [**] [1:2260005:1] SURICATA Applayer Unexpected protocol [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:64607 -> 192.168.65.7:2375
+05/02/2025-09:46:38.707864  [**] [1:2221028:1] SURICATA HTTP Host header invalid [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:54580 -> 192.168.65.7:2375
+05/02/2025-09:46:38.708028  [**] [1:2221028:1] SURICATA HTTP Host header invalid [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:62974 -> 192.168.65.7:2375
+05/02/2025-09:46:38.708798  [**] [1:2260005:1] SURICATA Applayer Unexpected protocol [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:54580 -> 192.168.65.7:2375
+05/02/2025-09:46:38.708787  [**] [1:2260005:1] SURICATA Applayer Unexpected protocol [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:62974 -> 192.168.65.7:2375
+05/02/2025-09:46:38.777844  [**] [1:2221028:1] SURICATA HTTP Host header invalid [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:43167 -> 192.168.65.7:2375
+05/02/2025-09:46:38.786635  [**] [1:2221028:1] SURICATA HTTP Host header invalid [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:25368 -> 192.168.65.7:2375
+05/02/2025-09:46:38.787228  [**] [1:2260005:1] SURICATA Applayer Unexpected protocol [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:25368 -> 192.168.65.7:2375
+05/02/2025-10:01:38.715146  [**] [1:2221028:1] SURICATA HTTP Host header invalid [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:40063 -> 192.168.65.7:2375
+05/02/2025-10:01:38.715350  [**] [1:2221028:1] SURICATA HTTP Host header invalid [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:63286 -> 192.168.65.7:2375
+05/02/2025-10:01:38.715938  [**] [1:2260005:1] SURICATA Applayer Unexpected protocol [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:40063 -> 192.168.65.7:2375
+05/02/2025-10:01:38.715948  [**] [1:2260005:1] SURICATA Applayer Unexpected protocol [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:63286 -> 192.168.65.7:2375
+05/02/2025-10:01:38.716374  [**] [1:2260005:1] SURICATA Applayer Unexpected protocol [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:63286 -> 192.168.65.7:2375
+05/02/2025-10:01:38.716229  [**] [1:2260005:1] SURICATA Applayer Unexpected protocol [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.7:2375 -> 192.168.65.1:40063
+05/02/2025-10:01:38.717055  [**] [1:2260005:1] SURICATA Applayer Unexpected protocol [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:40063 -> 192.168.65.7:2375
+05/02/2025-10:01:38.716896  [**] [1:2260005:1] SURICATA Applayer Unexpected protocol [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.7:2375 -> 192.168.65.1:63286
+05/02/2025-10:01:38.717623  [**] [1:2260005:1] SURICATA Applayer Unexpected protocol [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:63286 -> 192.168.65.7:2375
+05/02/2025-10:01:38.740490  [**] [1:2221028:1] SURICATA HTTP Host header invalid [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:40629 -> 192.168.65.7:2375
+05/02/2025-10:01:38.740620  [**] [1:2221028:1] SURICATA HTTP Host header invalid [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:58178 -> 192.168.65.7:2375
+05/02/2025-10:01:38.741140  [**] [1:2260005:1] SURICATA Applayer Unexpected protocol [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:40629 -> 192.168.65.7:2375
+05/02/2025-10:01:38.741293  [**] [1:2260005:1] SURICATA Applayer Unexpected protocol [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:58178 -> 192.168.65.7:2375
+05/02/2025-10:01:38.741265  [**] [1:2260005:1] SURICATA Applayer Unexpected protocol [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:40629 -> 192.168.65.7:2375
+05/02/2025-10:01:38.741542  [**] [1:2260005:1] SURICATA Applayer Unexpected protocol [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:40629 -> 192.168.65.7:2375
+05/02/2025-10:01:38.804240  [**] [1:2221028:1] SURICATA HTTP Host header invalid [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:47977 -> 192.168.65.7:2375
+05/02/2025-10:01:38.804958  [**] [1:2260005:1] SURICATA Applayer Unexpected protocol [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:47977 -> 192.168.65.7:2375
+05/02/2025-10:01:38.805295  [**] [1:2260005:1] SURICATA Applayer Unexpected protocol [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:47977 -> 192.168.65.7:2375
+05/02/2025-10:01:38.805374  [**] [1:2260005:1] SURICATA Applayer Unexpected protocol [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:47977 -> 192.168.65.7:2375
+05/02/2025-10:01:38.805431  [**] [1:2260005:1] SURICATA Applayer Unexpected protocol [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:47977 -> 192.168.65.7:2375
+05/02/2025-10:01:38.805445  [**] [1:2260005:1] SURICATA Applayer Unexpected protocol [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:47977 -> 192.168.65.7:2375
+05/02/2025-10:01:38.880013  [**] [1:2221028:1] SURICATA HTTP Host header invalid [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:44920 -> 192.168.65.7:2375
+05/02/2025-10:01:38.882529  [**] [1:2260005:1] SURICATA Applayer Unexpected protocol [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:44920 -> 192.168.65.7:2375
+05/02/2025-10:01:38.882624  [**] [1:2260005:1] SURICATA Applayer Unexpected protocol [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:44920 -> 192.168.65.7:2375
+05/02/2025-10:01:38.882769  [**] [1:2260005:1] SURICATA Applayer Unexpected protocol [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.65.1:44920 -> 192.168.65.7:2375

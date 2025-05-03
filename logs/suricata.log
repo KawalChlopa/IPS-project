@@ -1,0 +1,625 @@
+[1 - Suricata-Main] 2025-05-02 08:47:17 Notice: suricata: This is Suricata version 7.0.10 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-05-02 08:47:17 Info: cpu: CPUs/cores online: 12
+[1 - Suricata-Main] 2025-05-02 08:47:17 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-05-02 08:47:17 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-05-02 08:47:17 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-05-02 08:47:17 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-05-02 08:47:17 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-05-02 08:47:17 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-05-02 08:47:19 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 08:47:19 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 08:47:19 Info: detect: 1 rule files processed. 42614 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-05-02 08:47:20 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-05-02 08:47:20 Info: detect: 42617 signatures processed. 1270 are IP-only rules, 4333 are inspecting packet payload, 36797 inspect application layer, 109 are decoder event only
+[1 - Suricata-Main] 2025-05-02 08:47:23 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 08:47:23 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 08:47:23 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 08:47:23 Warning: af-packet: eth0: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-05-02 08:47:23 Info: runmodes: eth0: creating 12 threads
+[1 - Suricata-Main] 2025-05-02 08:47:24 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-05-02 08:47:25 Notice: threads: Threads created -> W: 12 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-05-02 08:48:12 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-05-02 08:48:12 Info: suricata: time elapsed 49.049s
+[1 - Suricata-Main] 2025-05-02 08:48:14 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2025-05-02 08:48:14 Notice: device: eth0: packets: 3971, drops: 81 (2.04%), invalid chksum: 0
+[1 - Suricata-Main] 2025-05-02 08:48:14 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 08:48:14 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 08:48:14 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 08:48:29 Notice: suricata: This is Suricata version 7.0.10 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-05-02 08:48:29 Info: cpu: CPUs/cores online: 12
+[1 - Suricata-Main] 2025-05-02 08:48:29 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-05-02 08:48:29 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-05-02 08:48:29 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-05-02 08:48:29 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-05-02 08:48:29 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-05-02 08:48:29 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-05-02 08:48:31 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 08:48:31 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 08:48:31 Info: detect: 1 rule files processed. 42614 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-05-02 08:48:31 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-05-02 08:48:31 Info: detect: 42617 signatures processed. 1270 are IP-only rules, 4333 are inspecting packet payload, 36797 inspect application layer, 109 are decoder event only
+[1 - Suricata-Main] 2025-05-02 08:48:35 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 08:48:35 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 08:48:35 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 08:48:35 Warning: af-packet: eth0: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-05-02 08:48:35 Info: runmodes: eth0: creating 12 threads
+[1 - Suricata-Main] 2025-05-02 08:48:35 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-05-02 08:48:36 Notice: threads: Threads created -> W: 12 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-05-02 08:54:11 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-05-02 08:54:11 Info: suricata: time elapsed 336.071s
+[1 - Suricata-Main] 2025-05-02 08:54:12 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2025-05-02 08:54:13 Notice: device: eth0: packets: 26160, drops: 280 (1.07%), invalid chksum: 0
+[1 - Suricata-Main] 2025-05-02 08:54:13 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 08:54:13 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 08:54:13 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:16:38 Notice: suricata: This is Suricata version 7.0.10 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-05-02 09:16:38 Info: cpu: CPUs/cores online: 12
+[1 - Suricata-Main] 2025-05-02 09:16:38 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-05-02 09:16:38 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-05-02 09:16:38 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-05-02 09:16:38 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-05-02 09:16:38 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-05-02 09:16:38 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-05-02 09:16:40 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 09:16:40 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 09:16:40 Info: detect: 1 rule files processed. 42614 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-05-02 09:16:40 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-05-02 09:16:40 Info: detect: 42617 signatures processed. 1270 are IP-only rules, 4333 are inspecting packet payload, 36797 inspect application layer, 109 are decoder event only
+[1 - Suricata-Main] 2025-05-02 09:16:44 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:16:44 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:16:44 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:16:44 Warning: af-packet: eth0: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-05-02 09:16:44 Info: runmodes: eth0: creating 12 threads
+[1 - Suricata-Main] 2025-05-02 09:16:44 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-05-02 09:16:45 Notice: threads: Threads created -> W: 12 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-05-02 09:18:34 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-05-02 09:18:35 Info: suricata: time elapsed 110.873s
+[1 - Suricata-Main] 2025-05-02 09:18:36 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2025-05-02 09:18:36 Notice: device: eth0: packets: 8686, drops: 351 (4.04%), invalid chksum: 0
+[1 - Suricata-Main] 2025-05-02 09:18:36 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:18:36 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:18:36 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:19:47 Notice: suricata: This is Suricata version 7.0.10 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-05-02 09:19:47 Info: cpu: CPUs/cores online: 12
+[1 - Suricata-Main] 2025-05-02 09:19:47 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-05-02 09:19:47 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-05-02 09:19:47 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-05-02 09:19:47 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-05-02 09:19:47 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-05-02 09:19:47 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-05-02 09:19:49 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 09:19:49 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 09:19:49 Info: detect: 1 rule files processed. 42614 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-05-02 09:19:49 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-05-02 09:19:49 Info: detect: 42617 signatures processed. 1270 are IP-only rules, 4333 are inspecting packet payload, 36797 inspect application layer, 109 are decoder event only
+[1 - Suricata-Main] 2025-05-02 09:19:53 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:19:53 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:19:53 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:19:53 Warning: af-packet: eth0: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-05-02 09:19:53 Info: runmodes: eth0: creating 12 threads
+[1 - Suricata-Main] 2025-05-02 09:19:53 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-05-02 09:19:54 Notice: threads: Threads created -> W: 12 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-05-02 09:22:35 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-05-02 09:22:36 Info: suricata: time elapsed 163.611s
+[1 - Suricata-Main] 2025-05-02 09:22:38 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2025-05-02 09:22:38 Notice: device: eth0: packets: 12451, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-05-02 09:22:38 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:22:38 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:22:38 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:22:55 Notice: suricata: This is Suricata version 7.0.10 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-05-02 09:22:55 Info: cpu: CPUs/cores online: 12
+[1 - Suricata-Main] 2025-05-02 09:22:55 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-05-02 09:22:55 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-05-02 09:22:55 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-05-02 09:22:55 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-05-02 09:22:55 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-05-02 09:22:55 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-05-02 09:22:57 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 09:22:57 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 09:22:57 Info: detect: 1 rule files processed. 42614 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-05-02 09:22:57 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-05-02 09:22:57 Info: detect: 42617 signatures processed. 1270 are IP-only rules, 4333 are inspecting packet payload, 36797 inspect application layer, 109 are decoder event only
+[1 - Suricata-Main] 2025-05-02 09:23:00 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:23:00 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:23:00 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:23:00 Warning: af-packet: eth0: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-05-02 09:23:00 Info: runmodes: eth0: creating 12 threads
+[1 - Suricata-Main] 2025-05-02 09:23:01 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-05-02 09:23:02 Notice: threads: Threads created -> W: 12 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-05-02 09:29:11 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-05-02 09:29:11 Info: suricata: time elapsed 370.803s
+[1 - Suricata-Main] 2025-05-02 09:29:12 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2025-05-02 09:29:13 Notice: device: eth0: packets: 94958, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-05-02 09:29:13 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:29:13 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:29:13 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:29:14 Notice: suricata: This is Suricata version 7.0.10 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-05-02 09:29:14 Info: cpu: CPUs/cores online: 12
+[1 - Suricata-Main] 2025-05-02 09:29:14 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-05-02 09:29:14 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-05-02 09:29:14 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-05-02 09:29:14 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-05-02 09:29:14 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-05-02 09:29:14 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-05-02 09:29:16 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 09:29:16 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 09:29:16 Warning: detect: No rule files match the pattern /var/lib/suricata/rules/local.rules
+[1 - Suricata-Main] 2025-05-02 09:29:16 Info: detect: 2 rule files processed. 42614 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-05-02 09:29:16 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-05-02 09:29:16 Info: detect: 42617 signatures processed. 1270 are IP-only rules, 4333 are inspecting packet payload, 36797 inspect application layer, 109 are decoder event only
+[1 - Suricata-Main] 2025-05-02 09:29:20 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:29:20 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:29:20 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:29:20 Warning: af-packet: eth0: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-05-02 09:29:20 Info: runmodes: eth0: creating 12 threads
+[1 - Suricata-Main] 2025-05-02 09:29:20 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-05-02 09:29:21 Notice: threads: Threads created -> W: 12 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-05-02 09:31:06 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-05-02 09:31:07 Info: suricata: time elapsed 107.794s
+[1 - Suricata-Main] 2025-05-02 09:31:09 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2025-05-02 09:31:09 Notice: device: eth0: packets: 8346, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-05-02 09:31:09 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:31:09 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:31:09 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:31:10 Notice: suricata: This is Suricata version 7.0.10 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-05-02 09:31:10 Info: cpu: CPUs/cores online: 12
+[1 - Suricata-Main] 2025-05-02 09:31:10 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-05-02 09:31:10 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-05-02 09:31:10 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-05-02 09:31:10 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-05-02 09:31:10 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-05-02 09:31:10 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-05-02 09:31:12 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 09:31:12 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 09:31:12 Error: detect-parse: unknown rule keyword 'icmp_type'.
+[1 - Suricata-Main] 2025-05-02 09:31:12 Error: detect: error parsing signature "alert icmp any any -> $HOME_NET any (msg:"ICMP Ping wykryty"; icmp_type:8; icmp_id:any; icmp_seq:any; classtype:network-scan; sid:10000001; rev:1;)" from file /var/lib/suricata/rules/local.rules at line 2
+[1 - Suricata-Main] 2025-05-02 09:31:12 Info: detect: 2 rule files processed. 42614 rules successfully loaded, 1 rules failed, 0
+[1 - Suricata-Main] 2025-05-02 09:31:12 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-05-02 09:31:13 Info: detect: 42617 signatures processed. 1270 are IP-only rules, 4333 are inspecting packet payload, 36797 inspect application layer, 109 are decoder event only
+[1 - Suricata-Main] 2025-05-02 09:31:17 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:31:17 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:31:17 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:31:17 Warning: af-packet: eth0: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-05-02 09:31:17 Info: runmodes: eth0: creating 12 threads
+[1 - Suricata-Main] 2025-05-02 09:31:17 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-05-02 09:31:18 Notice: threads: Threads created -> W: 12 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-05-02 09:31:28 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-05-02 09:31:29 Info: suricata: time elapsed 12.152s
+[1 - Suricata-Main] 2025-05-02 09:31:30 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2025-05-02 09:31:30 Notice: device: eth0: packets: 827, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-05-02 09:31:30 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:31:30 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:31:30 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:31:48 Notice: suricata: This is Suricata version 7.0.10 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-05-02 09:31:48 Info: cpu: CPUs/cores online: 12
+[1 - Suricata-Main] 2025-05-02 09:31:48 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-05-02 09:31:48 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-05-02 09:31:48 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-05-02 09:31:48 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-05-02 09:31:48 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-05-02 09:31:48 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-05-02 09:31:50 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 09:31:50 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 09:31:50 Warning: detect: No rule files match the pattern /var/lib/suricata/rules/local.rules
+[1 - Suricata-Main] 2025-05-02 09:31:50 Info: detect: 2 rule files processed. 42614 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-05-02 09:31:51 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-05-02 09:31:51 Info: detect: 42617 signatures processed. 1270 are IP-only rules, 4333 are inspecting packet payload, 36797 inspect application layer, 109 are decoder event only
+[1 - Suricata-Main] 2025-05-02 09:31:54 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:31:54 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:31:54 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:31:54 Warning: af-packet: eth0: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-05-02 09:31:54 Info: runmodes: eth0: creating 12 threads
+[1 - Suricata-Main] 2025-05-02 09:31:54 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-05-02 09:31:56 Notice: threads: Threads created -> W: 12 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-05-02 09:36:17 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-05-02 09:36:18 Info: suricata: time elapsed 263.371s
+[1 - Suricata-Main] 2025-05-02 09:36:19 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2025-05-02 09:36:19 Notice: device: eth0: packets: 20218, drops: 227 (1.12%), invalid chksum: 0
+[1 - Suricata-Main] 2025-05-02 09:36:19 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:36:19 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:36:19 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:36:43 Notice: suricata: This is Suricata version 7.0.10 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-05-02 09:36:43 Info: cpu: CPUs/cores online: 12
+[1 - Suricata-Main] 2025-05-02 09:36:43 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-05-02 09:36:43 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-05-02 09:36:43 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-05-02 09:36:43 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-05-02 09:36:43 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-05-02 09:36:43 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-05-02 09:36:45 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 09:36:45 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 09:36:45 Warning: detect: No rule files match the pattern /var/lib/suricata/rules/local.rules
+[1 - Suricata-Main] 2025-05-02 09:36:45 Info: detect: 2 rule files processed. 42614 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-05-02 09:36:45 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-05-02 09:36:45 Info: detect: 42617 signatures processed. 1270 are IP-only rules, 4333 are inspecting packet payload, 36797 inspect application layer, 109 are decoder event only
+[1 - Suricata-Main] 2025-05-02 09:36:49 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:36:49 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:36:49 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:36:49 Warning: af-packet: eth0: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-05-02 09:36:49 Info: runmodes: eth0: creating 12 threads
+[1 - Suricata-Main] 2025-05-02 09:36:49 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-05-02 09:36:50 Notice: threads: Threads created -> W: 12 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-05-02 09:36:58 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-05-02 09:36:58 Info: suricata: time elapsed 9.179s
+[1 - Suricata-Main] 2025-05-02 09:36:59 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2025-05-02 09:36:59 Notice: device: eth0: packets: 758, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-05-02 09:36:59 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:36:59 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:36:59 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:39:04 Notice: suricata: This is Suricata version 7.0.10 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-05-02 09:39:04 Info: cpu: CPUs/cores online: 12
+[1 - Suricata-Main] 2025-05-02 09:39:04 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-05-02 09:39:04 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-05-02 09:39:04 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-05-02 09:39:04 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-05-02 09:39:04 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-05-02 09:39:04 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-05-02 09:39:06 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 09:39:06 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 09:39:06 Warning: detect: No rule files match the pattern /var/lib/suricata/rules/local.rules
+[1 - Suricata-Main] 2025-05-02 09:39:06 Info: detect: 2 rule files processed. 42614 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-05-02 09:39:06 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-05-02 09:39:06 Info: detect: 42617 signatures processed. 1270 are IP-only rules, 4333 are inspecting packet payload, 36797 inspect application layer, 109 are decoder event only
+[1 - Suricata-Main] 2025-05-02 09:39:09 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:39:09 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:39:09 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:39:09 Warning: af-packet: eth0: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-05-02 09:39:09 Info: runmodes: eth0: creating 12 threads
+[1 - Suricata-Main] 2025-05-02 09:39:09 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-05-02 09:39:11 Notice: threads: Threads created -> W: 12 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-05-02 09:42:03 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-05-02 09:42:03 Info: suricata: time elapsed 173.656s
+[1 - Suricata-Main] 2025-05-02 09:42:04 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2025-05-02 09:42:04 Notice: device: eth0: packets: 15264, drops: 807 (5.29%), invalid chksum: 0
+[1 - Suricata-Main] 2025-05-02 09:42:04 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:42:04 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:42:04 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:44:40 Notice: suricata: This is Suricata version 7.0.10 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-05-02 09:44:40 Info: cpu: CPUs/cores online: 12
+[1 - Suricata-Main] 2025-05-02 09:44:40 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-05-02 09:44:40 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-05-02 09:44:41 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-05-02 09:44:41 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-05-02 09:44:41 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-05-02 09:44:41 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-05-02 09:44:43 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 09:44:43 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 09:44:43 Warning: detect: No rule files match the pattern /var/lib/suricata/rules/local.rules
+[1 - Suricata-Main] 2025-05-02 09:44:43 Info: detect: 2 rule files processed. 42614 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-05-02 09:44:43 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-05-02 09:44:43 Info: detect: 42617 signatures processed. 1270 are IP-only rules, 4333 are inspecting packet payload, 36797 inspect application layer, 109 are decoder event only
+[1 - Suricata-Main] 2025-05-02 09:44:46 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:44:46 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:44:46 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:44:46 Warning: af-packet: eth0: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-05-02 09:44:46 Info: runmodes: eth0: creating 12 threads
+[1 - Suricata-Main] 2025-05-02 09:44:46 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-05-02 09:44:47 Notice: threads: Threads created -> W: 12 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-05-02 09:49:42 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-05-02 09:49:42 Info: suricata: time elapsed 296.213s
+[1 - Suricata-Main] 2025-05-02 09:49:44 Info: counters: Alerts: 16
+[1 - Suricata-Main] 2025-05-02 09:49:44 Notice: device: eth0: packets: 22447, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-05-02 09:49:44 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:49:44 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:49:44 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:50:24 Notice: suricata: This is Suricata version 7.0.10 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-05-02 09:50:24 Info: cpu: CPUs/cores online: 12
+[1 - Suricata-Main] 2025-05-02 09:50:24 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-05-02 09:50:24 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-05-02 09:50:24 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-05-02 09:50:24 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-05-02 09:50:24 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-05-02 09:50:24 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-05-02 09:50:26 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 09:50:26 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 09:50:26 Warning: detect: No rule files match the pattern /var/lib/suricata/rules/local.rules
+[1 - Suricata-Main] 2025-05-02 09:50:26 Info: detect: 2 rule files processed. 42614 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-05-02 09:50:26 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-05-02 09:50:26 Info: detect: 42617 signatures processed. 1270 are IP-only rules, 4333 are inspecting packet payload, 36797 inspect application layer, 109 are decoder event only
+[1 - Suricata-Main] 2025-05-02 09:50:30 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:50:30 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:50:30 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:50:30 Warning: af-packet: eth0: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-05-02 09:50:30 Info: runmodes: eth0: creating 12 threads
+[1 - Suricata-Main] 2025-05-02 09:50:30 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-05-02 09:50:32 Notice: threads: Threads created -> W: 12 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-05-02 09:51:00 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-05-02 09:51:01 Info: suricata: time elapsed 31.127s
+[1 - Suricata-Main] 2025-05-02 09:51:02 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2025-05-02 09:51:03 Notice: device: eth0: packets: 114764, drops: 12342 (10.75%), invalid chksum: 0
+[1 - Suricata-Main] 2025-05-02 09:51:03 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:51:03 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:51:03 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:54:02 Notice: suricata: This is Suricata version 7.0.10 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-05-02 09:54:02 Info: cpu: CPUs/cores online: 12
+[1 - Suricata-Main] 2025-05-02 09:54:02 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-05-02 09:54:02 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-05-02 09:54:02 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-05-02 09:54:02 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-05-02 09:54:02 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-05-02 09:54:02 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-05-02 09:54:04 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 09:54:04 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 09:54:04 Warning: detect: No rule files match the pattern /var/lib/suricata/rules/local.rules
+[1 - Suricata-Main] 2025-05-02 09:54:04 Info: detect: 2 rule files processed. 42614 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-05-02 09:54:04 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-05-02 09:54:04 Info: detect: 42617 signatures processed. 1270 are IP-only rules, 4333 are inspecting packet payload, 36797 inspect application layer, 109 are decoder event only
+[1 - Suricata-Main] 2025-05-02 09:54:11 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:54:11 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:54:11 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:54:11 Warning: af-packet: eth0: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-05-02 09:54:11 Info: runmodes: eth0: creating 12 threads
+[1 - Suricata-Main] 2025-05-02 09:54:11 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-05-02 09:54:13 Notice: threads: Threads created -> W: 12 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-05-02 09:54:13 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-05-02 09:54:14 Info: suricata: time elapsed 3.470s
+[1 - Suricata-Main] 2025-05-02 09:54:15 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2025-05-02 09:54:16 Notice: device: eth0: packets: 6988, drops: 5870 (84.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-05-02 09:54:16 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:54:16 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:54:16 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:57:16 Notice: suricata: This is Suricata version 7.0.10 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-05-02 09:57:16 Info: cpu: CPUs/cores online: 12
+[1 - Suricata-Main] 2025-05-02 09:57:16 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-05-02 09:57:16 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-05-02 09:57:16 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-05-02 09:57:16 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-05-02 09:57:16 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-05-02 09:57:16 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-05-02 09:57:18 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 09:57:18 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 09:57:18 Warning: detect: No rule files match the pattern /var/lib/suricata/rules/local.rules
+[1 - Suricata-Main] 2025-05-02 09:57:18 Info: detect: 2 rule files processed. 42614 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-05-02 09:57:18 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-05-02 09:57:18 Info: detect: 42617 signatures processed. 1270 are IP-only rules, 4333 are inspecting packet payload, 36797 inspect application layer, 109 are decoder event only
+[1 - Suricata-Main] 2025-05-02 09:57:23 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:57:23 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:57:23 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:57:23 Warning: af-packet: eth0: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-05-02 09:57:23 Info: runmodes: eth0: creating 12 threads
+[1 - Suricata-Main] 2025-05-02 09:57:23 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-05-02 09:57:24 Notice: threads: Threads created -> W: 12 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-05-02 09:57:24 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-05-02 09:57:25 Info: suricata: time elapsed 2.209s
+[1 - Suricata-Main] 2025-05-02 09:57:26 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2025-05-02 09:57:26 Notice: device: eth0: packets: 6, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-05-02 09:57:26 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:57:26 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:57:26 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:59:32 Notice: suricata: This is Suricata version 7.0.10 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-05-02 09:59:32 Info: cpu: CPUs/cores online: 12
+[1 - Suricata-Main] 2025-05-02 09:59:32 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-05-02 09:59:32 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-05-02 09:59:32 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-05-02 09:59:32 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-05-02 09:59:32 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-05-02 09:59:32 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-05-02 09:59:34 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 09:59:34 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 09:59:34 Warning: detect: No rule files match the pattern /var/lib/suricata/rules/local.rules
+[1 - Suricata-Main] 2025-05-02 09:59:34 Info: detect: 2 rule files processed. 42614 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-05-02 09:59:34 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-05-02 09:59:34 Info: detect: 42617 signatures processed. 1270 are IP-only rules, 4333 are inspecting packet payload, 36797 inspect application layer, 109 are decoder event only
+[1 - Suricata-Main] 2025-05-02 09:59:38 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:59:38 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:59:38 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 09:59:38 Warning: af-packet: eth0: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-05-02 09:59:38 Info: runmodes: eth0: creating 12 threads
+[1 - Suricata-Main] 2025-05-02 09:59:38 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-05-02 09:59:39 Notice: threads: Threads created -> W: 12 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-05-02 09:59:59 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-05-02 10:00:00 Info: suricata: time elapsed 22.142s
+[1 - Suricata-Main] 2025-05-02 10:00:01 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2025-05-02 10:00:01 Notice: device: eth0: packets: 1458, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-05-02 10:00:01 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 10:00:01 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 10:00:01 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 10:00:08 Notice: suricata: This is Suricata version 7.0.10 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-05-02 10:00:08 Info: cpu: CPUs/cores online: 12
+[1 - Suricata-Main] 2025-05-02 10:00:08 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-05-02 10:00:08 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-05-02 10:00:08 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-05-02 10:00:08 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-05-02 10:00:08 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-05-02 10:00:08 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-05-02 10:00:10 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 10:00:10 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 10:00:10 Warning: detect: No rule files match the pattern /var/lib/suricata/rules/local.rules
+[1 - Suricata-Main] 2025-05-02 10:00:10 Info: detect: 2 rule files processed. 42614 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-05-02 10:00:10 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-05-02 10:00:10 Info: detect: 42617 signatures processed. 1270 are IP-only rules, 4333 are inspecting packet payload, 36797 inspect application layer, 109 are decoder event only
+[1 - Suricata-Main] 2025-05-02 10:00:14 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 10:00:14 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 10:00:14 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 10:00:14 Warning: af-packet: eth0: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-05-02 10:00:14 Info: runmodes: eth0: creating 12 threads
+[1 - Suricata-Main] 2025-05-02 10:00:14 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-05-02 10:00:15 Notice: threads: Threads created -> W: 12 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-05-02 10:05:58 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-05-02 10:05:58 Info: suricata: time elapsed 344.168s
+[1 - Suricata-Main] 2025-05-02 10:06:35 Notice: suricata: This is Suricata version 7.0.10 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-05-02 10:06:35 Info: cpu: CPUs/cores online: 12
+[1 - Suricata-Main] 2025-05-02 10:06:35 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-05-02 10:06:35 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-05-02 10:06:35 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-05-02 10:06:35 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-05-02 10:06:35 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-05-02 10:06:35 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-05-02 10:06:37 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 10:06:37 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 10:06:37 Warning: detect: No rule files match the pattern /var/lib/suricata/rules/local.rules
+[1 - Suricata-Main] 2025-05-02 10:06:37 Info: detect: 2 rule files processed. 42614 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-05-02 10:06:37 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-05-02 10:06:37 Info: detect: 42617 signatures processed. 1270 are IP-only rules, 4333 are inspecting packet payload, 36797 inspect application layer, 109 are decoder event only
+[1 - Suricata-Main] 2025-05-02 10:06:41 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 10:06:41 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 10:06:41 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 10:06:41 Warning: af-packet: eth0: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-05-02 10:06:41 Info: runmodes: eth0: creating 12 threads
+[1 - Suricata-Main] 2025-05-02 10:06:41 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-05-02 10:06:42 Notice: threads: Threads created -> W: 12 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-05-02 10:08:27 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-05-02 10:08:28 Info: suricata: time elapsed 106.889s
+[1 - Suricata-Main] 2025-05-02 10:08:29 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2025-05-02 10:08:29 Notice: device: eth0: packets: 8278, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-05-02 10:08:29 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 10:08:29 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 10:08:29 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 10:08:40 Notice: suricata: This is Suricata version 7.0.10 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-05-02 10:08:40 Info: cpu: CPUs/cores online: 12
+[1 - Suricata-Main] 2025-05-02 10:08:40 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-05-02 10:08:40 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-05-02 10:08:40 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-05-02 10:08:40 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-05-02 10:08:40 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-05-02 10:08:40 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-05-02 10:08:42 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 10:08:42 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 10:08:42 Warning: detect: No rule files match the pattern /var/lib/suricata/rules/local.rules
+[1 - Suricata-Main] 2025-05-02 10:08:42 Info: detect: 2 rule files processed. 42614 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-05-02 10:08:42 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-05-02 10:08:42 Info: detect: 42617 signatures processed. 1270 are IP-only rules, 4333 are inspecting packet payload, 36797 inspect application layer, 109 are decoder event only
+[1 - Suricata-Main] 2025-05-02 10:08:46 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 10:08:46 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 10:08:46 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 10:08:46 Warning: af-packet: eth0: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-05-02 10:08:46 Info: runmodes: eth0: creating 12 threads
+[1 - Suricata-Main] 2025-05-02 10:08:46 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-05-02 10:08:47 Notice: threads: Threads created -> W: 12 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-05-02 10:14:07 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-05-02 10:14:08 Info: suricata: time elapsed 322.094s
+[1 - Suricata-Main] 2025-05-02 10:14:09 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2025-05-02 10:14:09 Notice: device: eth0: packets: 95401, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-05-02 10:14:09 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 10:14:09 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 10:14:09 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 10:14:11 Notice: suricata: This is Suricata version 7.0.10 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-05-02 10:14:11 Info: cpu: CPUs/cores online: 12
+[1 - Suricata-Main] 2025-05-02 10:14:11 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-05-02 10:14:11 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-05-02 10:14:11 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-05-02 10:14:11 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-05-02 10:14:11 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-05-02 10:14:11 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-05-02 10:14:13 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 10:14:13 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-02 10:14:13 Error: detect-parse: Signature missing required value "sid".
+[1 - Suricata-Main] 2025-05-02 10:14:13 Error: detect: error parsing signature "alert http any any -> any any (" from file /var/lib/suricata/rules/local.rules at line 5
+[1 - Suricata-Main] 2025-05-02 10:14:13 Error: detect-parse: no rule options.
+[1 - Suricata-Main] 2025-05-02 10:14:13 Error: detect: error parsing signature ")" from file /var/lib/suricata/rules/local.rules at line 11
+[1 - Suricata-Main] 2025-05-02 10:14:13 Error: detect-parse: Signature missing required value "sid".
+[1 - Suricata-Main] 2025-05-02 10:14:13 Error: detect: error parsing signature "alert tcp any any -> any 22 (" from file /var/lib/suricata/rules/local.rules at line 14
+[1 - Suricata-Main] 2025-05-02 10:14:13 Error: detect-parse: no rule options.
+[1 - Suricata-Main] 2025-05-02 10:14:13 Error: detect: error parsing signature ")" from file /var/lib/suricata/rules/local.rules at line 21
+[1 - Suricata-Main] 2025-05-02 10:14:13 Error: detect-parse: Signature missing required value "sid".
+[1 - Suricata-Main] 2025-05-02 10:14:13 Error: detect: error parsing signature "alert tcp any any -> any 3306 (" from file /var/lib/suricata/rules/local.rules at line 24
+[1 - Suricata-Main] 2025-05-02 10:14:13 Error: detect-parse: no rule options.
+[1 - Suricata-Main] 2025-05-02 10:14:13 Error: detect: error parsing signature ")" from file /var/lib/suricata/rules/local.rules at line 31
+[1 - Suricata-Main] 2025-05-02 10:14:13 Error: detect-parse: Signature missing required value "sid".
+[1 - Suricata-Main] 2025-05-02 10:14:13 Error: detect: error parsing signature "alert tcp any any -> any 21 (" from file /var/lib/suricata/rules/local.rules at line 34
+[1 - Suricata-Main] 2025-05-02 10:14:13 Error: detect-parse: no rule options.
+[1 - Suricata-Main] 2025-05-02 10:14:13 Error: detect: error parsing signature ")" from file /var/lib/suricata/rules/local.rules at line 41
+[1 - Suricata-Main] 2025-05-02 10:14:13 Error: detect-parse: Signature missing required value "sid".
+[1 - Suricata-Main] 2025-05-02 10:14:13 Error: detect: error parsing signature "alert icmp any any -> any any (" from file /var/lib/suricata/rules/local.rules at line 44
+[1 - Suricata-Main] 2025-05-02 10:14:13 Error: detect-parse: no rule options.
+[1 - Suricata-Main] 2025-05-02 10:14:13 Error: detect: error parsing signature ")" from file /var/lib/suricata/rules/local.rules at line 51
+[1 - Suricata-Main] 2025-05-02 10:14:13 Error: detect-parse: Signature missing required value "sid".
+[1 - Suricata-Main] 2025-05-02 10:14:13 Error: detect: error parsing signature "alert tcp any any -> any 80,443 (" from file /var/lib/suricata/rules/local.rules at line 54
+[1 - Suricata-Main] 2025-05-02 10:14:13 Error: detect-parse: no rule options.
+[1 - Suricata-Main] 2025-05-02 10:14:13 Error: detect: error parsing signature ")" from file /var/lib/suricata/rules/local.rules at line 61
+[1 - Suricata-Main] 2025-05-02 10:14:13 Info: detect: 2 rule files processed. 42614 rules successfully loaded, 12 rules failed, 0
+[1 - Suricata-Main] 2025-05-02 10:14:13 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-05-02 10:14:13 Info: detect: 42617 signatures processed. 1270 are IP-only rules, 4333 are inspecting packet payload, 36797 inspect application layer, 109 are decoder event only
+[1 - Suricata-Main] 2025-05-02 10:14:16 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 10:14:16 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 10:14:16 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 10:14:16 Warning: af-packet: eth0: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-05-02 10:14:16 Info: runmodes: eth0: creating 12 threads
+[1 - Suricata-Main] 2025-05-02 10:14:16 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-05-02 10:14:18 Notice: threads: Threads created -> W: 12 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-05-02 10:16:30 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-05-02 10:16:30 Info: suricata: time elapsed 133.683s
+[1 - Suricata-Main] 2025-05-02 10:16:31 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2025-05-02 10:16:32 Notice: device: eth0: packets: 10075, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-05-02 10:16:32 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 10:16:32 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-02 10:16:32 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-03 11:17:30 Notice: suricata: This is Suricata version 7.0.10 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-05-03 11:17:30 Info: cpu: CPUs/cores online: 12
+[1 - Suricata-Main] 2025-05-03 11:17:30 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-05-03 11:17:30 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-05-03 11:17:30 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-05-03 11:17:30 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-05-03 11:17:30 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-05-03 11:17:30 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-05-03 11:17:32 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-03 11:17:32 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-03 11:17:32 Error: detect-parse: Signature missing required value "sid".
+[1 - Suricata-Main] 2025-05-03 11:17:32 Error: detect: error parsing signature "alert http any any -> any any (" from file /var/lib/suricata/rules/local.rules at line 5
+[1 - Suricata-Main] 2025-05-03 11:17:32 Error: detect-parse: no rule options.
+[1 - Suricata-Main] 2025-05-03 11:17:32 Error: detect: error parsing signature ")" from file /var/lib/suricata/rules/local.rules at line 11
+[1 - Suricata-Main] 2025-05-03 11:17:32 Error: detect-parse: Signature missing required value "sid".
+[1 - Suricata-Main] 2025-05-03 11:17:32 Error: detect: error parsing signature "alert tcp any any -> any 22 (" from file /var/lib/suricata/rules/local.rules at line 14
+[1 - Suricata-Main] 2025-05-03 11:17:32 Error: detect-parse: no rule options.
+[1 - Suricata-Main] 2025-05-03 11:17:32 Error: detect: error parsing signature ")" from file /var/lib/suricata/rules/local.rules at line 21
+[1 - Suricata-Main] 2025-05-03 11:17:32 Error: detect-parse: Signature missing required value "sid".
+[1 - Suricata-Main] 2025-05-03 11:17:32 Error: detect: error parsing signature "alert tcp any any -> any 3306 (" from file /var/lib/suricata/rules/local.rules at line 24
+[1 - Suricata-Main] 2025-05-03 11:17:32 Error: detect-parse: no rule options.
+[1 - Suricata-Main] 2025-05-03 11:17:32 Error: detect: error parsing signature ")" from file /var/lib/suricata/rules/local.rules at line 31
+[1 - Suricata-Main] 2025-05-03 11:17:32 Error: detect-parse: Signature missing required value "sid".
+[1 - Suricata-Main] 2025-05-03 11:17:32 Error: detect: error parsing signature "alert tcp any any -> any 21 (" from file /var/lib/suricata/rules/local.rules at line 34
+[1 - Suricata-Main] 2025-05-03 11:17:32 Error: detect-parse: no rule options.
+[1 - Suricata-Main] 2025-05-03 11:17:32 Error: detect: error parsing signature ")" from file /var/lib/suricata/rules/local.rules at line 41
+[1 - Suricata-Main] 2025-05-03 11:17:32 Error: detect-parse: Signature missing required value "sid".
+[1 - Suricata-Main] 2025-05-03 11:17:32 Error: detect: error parsing signature "alert icmp any any -> any any (" from file /var/lib/suricata/rules/local.rules at line 44
+[1 - Suricata-Main] 2025-05-03 11:17:32 Error: detect-parse: no rule options.
+[1 - Suricata-Main] 2025-05-03 11:17:32 Error: detect: error parsing signature ")" from file /var/lib/suricata/rules/local.rules at line 51
+[1 - Suricata-Main] 2025-05-03 11:17:32 Error: detect-parse: Signature missing required value "sid".
+[1 - Suricata-Main] 2025-05-03 11:17:32 Error: detect: error parsing signature "alert tcp any any -> any 80,443 (" from file /var/lib/suricata/rules/local.rules at line 54
+[1 - Suricata-Main] 2025-05-03 11:17:32 Error: detect-parse: no rule options.
+[1 - Suricata-Main] 2025-05-03 11:17:32 Error: detect: error parsing signature ")" from file /var/lib/suricata/rules/local.rules at line 61
+[1 - Suricata-Main] 2025-05-03 11:17:32 Info: detect: 2 rule files processed. 42614 rules successfully loaded, 12 rules failed, 0
+[1 - Suricata-Main] 2025-05-03 11:17:32 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-05-03 11:17:32 Info: detect: 42617 signatures processed. 1270 are IP-only rules, 4333 are inspecting packet payload, 36797 inspect application layer, 109 are decoder event only
+[1 - Suricata-Main] 2025-05-03 11:17:36 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-03 11:17:36 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-03 11:17:36 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-03 11:17:36 Warning: af-packet: eth0: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-05-03 11:17:36 Info: runmodes: eth0: creating 12 threads
+[1 - Suricata-Main] 2025-05-03 11:17:36 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-05-03 11:17:37 Notice: threads: Threads created -> W: 12 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-05-03 11:18:22 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-05-03 11:18:23 Info: suricata: time elapsed 47.086s
+[1 - Suricata-Main] 2025-05-03 11:18:24 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2025-05-03 11:18:24 Notice: device: eth0: packets: 3597, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-05-03 11:18:24 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-03 11:18:24 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-03 11:18:24 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-03 11:21:26 Notice: suricata: This is Suricata version 7.0.10 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-05-03 11:21:26 Info: cpu: CPUs/cores online: 12
+[1 - Suricata-Main] 2025-05-03 11:21:26 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-05-03 11:21:26 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-05-03 11:21:26 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-05-03 11:21:26 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-05-03 11:21:26 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-05-03 11:21:26 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-05-03 11:21:29 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-03 11:21:29 Info: detect-fast-pattern: fast_pattern is ineffective with base64_data
+[1 - Suricata-Main] 2025-05-03 11:21:29 Warning: detect: No rule files match the pattern /var/lib/suricata/rules/local.rules
+[1 - Suricata-Main] 2025-05-03 11:21:29 Info: detect: 2 rule files processed. 42614 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-05-03 11:21:29 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-05-03 11:21:29 Info: detect: 42617 signatures processed. 1270 are IP-only rules, 4333 are inspecting packet payload, 36797 inspect application layer, 109 are decoder event only
+[1 - Suricata-Main] 2025-05-03 11:21:33 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-03 11:21:33 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-03 11:21:33 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-03 11:21:33 Warning: af-packet: eth0: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-05-03 11:21:33 Info: runmodes: eth0: creating 12 threads
+[1 - Suricata-Main] 2025-05-03 11:21:33 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-05-03 11:21:35 Notice: threads: Threads created -> W: 12 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-05-03 11:26:19 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-05-03 11:26:19 Info: suricata: time elapsed 286.195s
+[1 - Suricata-Main] 2025-05-03 11:26:20 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2025-05-03 11:26:21 Notice: device: eth0: packets: 25944, drops: 334 (1.29%), invalid chksum: 0
+[1 - Suricata-Main] 2025-05-03 11:26:21 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-03 11:26:21 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2025-05-03 11:26:21 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
