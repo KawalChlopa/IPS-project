@@ -1,0 +1,46 @@
+alert tcp any any -> any 22 (msg:"Wykryto SSH bruteforce"; flow:to_server,established; content:"SSH-"; depth:4; detection_filter:track by_src, count 3, seconds 30; sid:1000002; rev:1;)
+# [1000001] TCP SYN Scan (nmap -sS / hping3 -S)
+alert tcp any any -> any any (
+  msg:"[SURICATA] TCP SYN Scan (nmap -sS / hping3 -S)";
+  flags:S;
+  threshold:type threshold, track by_src, count 10, seconds 10;
+  sid:1000001;
+  rev:1;
+)
+
+# [1000002] SSH Brute-force Attempt (Hydra)
+alert tcp any any -> any 22 (
+  msg:"[SURICATA] SSH Brute-force Attempt Detected";
+  flow:to_server,established;
+  content:"SSH-";
+  detection_filter:track by_src, count 5, seconds 30;
+  sid:1000002;
+  rev:1;
+)
+
+# [1000003] Shellshock Exploit Attempt in User-Agent
+alert http any any -> any any (
+  msg:"[SURICATA] Shellshock Attempt in User-Agent Header";
+  flow:to_server,established;
+  content:"User-Agent|3a| () {";
+  http_header;
+  sid:1000003;
+  rev:1;
+)
+
+# [1000004] ICMP Echo Request (ping / hping3 --icmp)
+alert icmp any any -> any any (
+  msg:"[SURICATA] ICMP Echo Request (Ping)";
+  itype:8;  # Echo Request
+  sid:1000004;
+  rev:1;
+)
+
+# [1000005] ICMP Flood (hping3 --flood)
+alert icmp any any -> any any (
+  msg:"[SURICATA] ICMP Flood Detected (hping3)";
+  itype:8;
+  threshold:type threshold, track by_src, count 20, seconds 5;
+  sid:1000005;
+  rev:1;
+)

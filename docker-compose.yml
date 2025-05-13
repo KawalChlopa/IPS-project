@@ -1,20 +1,42 @@
 version: "3.7"
+
 services:
   suricata:
     image: jasonish/suricata:latest
     container_name: suricata
-    network_mode: "host"
+    privileged: true
+    network_mode: host
     volumes:
       - ./suricata:/etc/suricata
       - ./logs:/var/log/suricata
-    command: ["suricata", "-c", "/etc/suricata/suricata.yaml", "-i", "eth0"]
+      - ./suricata-monitor.py:/opt/suricata-monitor.py
+    command:
+      - suricata
+      - "-c"
+      - "/etc/suricata/suricata.yaml"
+      - "-i"
+      - "eth0"
+    restart: unless-stopped
 
   monitor:
     build:
       context: .
-      dockerfile: Dockerfile  
+      dockerfile: Dockerfile
     container_name: suricata-monitor
+    privileged: true
+    network_mode: host
+    depends_on:
+      - suricata
+    restart: on-failure
     volumes:
       - ./logs:/var/log/suricata
+      - ./monitor-log:/opt/log
+      - ./suricata-actions.json:/etc/suricata-actions.json
       - ./suricata-monitor.py:/opt/suricata-monitor.py
-    command: ["python", "/opt/suricata-monitor.py", "--interval", "1.0"]
+    command:
+      - --interval
+      - "1.0"
+      - --output-log
+      - /opt/log/suricata-monitor.log
+      - --rules
+      - /etc/suricata-actions.json

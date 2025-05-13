@@ -684,7 +684,7 @@ af-packet:
     # Warning: 'capture.checksum-validation' must be set to yes to have any validation
     #checksum-checks: kernel
     # BPF filter to apply to this interface. The pcap filter syntax applies here.
-    #bpf-filter: port 80 or udp
+    #bpf-filter: "ip"
     # You can use the following variables to activate AF_PACKET tap or IPS mode.
     # If copy-mode is set to ips or tap, the traffic coming to the current
     # interface will be copied to the copy-iface interface. If 'tap' is set, the
@@ -2184,11 +2184,13 @@ napatech:
 ## Configure Suricata to load Suricata-Update managed rules.
 ##
 
-default-rule-path: /var/lib/suricata/rules
-
+default-rule-path: /etc/suricata/rules
 rule-files:
   - suricata.rules
   - local.rules
+
+
+
 ##
 ## Auxiliary configuration files.
 ##

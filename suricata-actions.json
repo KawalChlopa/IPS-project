@@ -1,0 +1,22 @@
+[
+  {
+    "pattern": "ET POLICY.*SSH Brute Force.*\\{TCP\\}\\s+(?P<ip>\\d+\\.\\d+\\.\\d+\\.\\d+):",
+    "action": "block_ip",
+    "duration": 1800
+  },
+  {
+    "pattern": "SSH Failed Password.*(?P<ip>\\d+\\.\\d+\\.\\d+\\.\\d+)",
+    "action": "block_ip",
+    "duration": 1800
+  },
+  {
+    "pattern": "FTP Upload Attempt.*(?P<ip>\\d+\\.\\d+\\.\\d+\\.\\d+)",
+    "action": "block_ip",
+    "duration": 1800
+  },
+  {
+    "pattern": "\\{TCP\\}\\s+(?P<ip>\\d+\\.\\d+\\.\\d+\\.\\d+):\\d+\\s*->",
+    "action": "block_ip",
+    "duration": 900
+  }
+]

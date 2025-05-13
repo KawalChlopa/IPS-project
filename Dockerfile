@@ -1,13 +1,12 @@
 FROM python:3.10-slim
 
-# Instalacja wymaganych bibliotek
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends iproute2 iptables \
+    && rm -rf /var/lib/apt/lists/*
+
 RUN pip install --no-cache-dir watchdog
 
-# Kopiowanie skryptu monitorującego
 COPY suricata-monitor.py /opt/suricata-monitor.py
-
-# Ustawienie pliku jako wykonywalnego
 RUN chmod +x /opt/suricata-monitor.py
 
-# Komenda uruchamiająca skrypt
-CMD ["python", "/opt/suricata-monitor.py", "--interval", "1.0"]
+ENTRYPOINT ["python", "-u", "/opt/suricata-monitor.py"]
